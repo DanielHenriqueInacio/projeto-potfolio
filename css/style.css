@@ -105,25 +105,29 @@ body {
     
 }
 
-
-.content {
-    width: 100%;
-    margin: auto;
+.card-img {
+    width: 90%;
 }
 
-.pic {
+.primeiro {
     width: 30%;
+}
+
+.segundo {
+    width: 30%;
+}
+
+.terceiro {
+    width: 30%;
+}
+
+.parent {
+   width: 90vw;
+   margin: auto
+}
+
+.coluna {
+    width: 44vw;
+    height: 30vh;
     display: inline-block;
-    background-color: #3E3E3E;
-    margin: 30px 10px;
-    padding: 20px;
-}
-
-.pic .primeiro, .segundo {
-    width: 100%;
-    display: block;
-}
-
-.pic .terceiro {
-    width: 100%;
 }
