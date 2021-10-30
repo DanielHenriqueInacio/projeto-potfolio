@@ -106,28 +106,55 @@ body {
 }
 
 .card-img {
-    width: 90%;
+    width: 30vw;
 }
 
-.primeiro {
-    width: 30%;
-}
-
-.segundo {
-    width: 30%;
-}
-
-.terceiro {
-    width: 30%;
+.ind {
+    width: 27.4vw;
 }
 
 .parent {
-   width: 90vw;
+   width: 80vw;
    margin: auto
 }
 
 .coluna {
-    width: 44vw;
-    height: 30vh;
+    width: 34vw;
     display: inline-block;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.conj {
+    width: 34vw;
+    display: inline-block;
+    padding: 27px;
+    margin: 1vh 7vw;
+    background-color: #3E3E3E;
+    border-radius: 10px;
+}
+
+.solo {
+    width: 31vw;
+    display: inline-block;
+    padding: 27px;
+    margin: 7vh 8vw;
+    background-color: #3E3E3E;
+    border-radius: 10px;
+}
+
+.parent p {
+    color: burlywood;
+    text-align: center;
+    padding-top: 2vh;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 1.1rem;
+}
+
+.parent p:hover {
+    color: floralwhite;
+}
+
+.parent a {
+    text-decoration: none;
 }
