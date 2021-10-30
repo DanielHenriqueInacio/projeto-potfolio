@@ -102,7 +102,6 @@ body {
     margin: auto;
     display: block;
     margin-top: 50px;
-    
 }
 
 .card-img {
@@ -157,4 +156,19 @@ body {
 
 .parent a {
     text-decoration: none;
+}
+
+.lista {
+    background-color: #F0D676;
+    width: 40vw;
+    margin: auto;
+    display: block;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+    padding: 35px 0;
+}
+
+.lista li {
+    text-align: center;
+    margin: 2%;
 }
